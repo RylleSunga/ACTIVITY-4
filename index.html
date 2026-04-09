@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Karylle Name Design</title>
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Animated olive gradient */
+    background: linear-gradient(135deg, #556b2f, #6b8e23, #4f6d3a);
+    background-size: 200% 200%;
+    animation: bgMove 10s ease infinite;
+
+    font-family: 'Segoe UI', sans-serif;
+}
+
+@keyframes bgMove {
+    0% { background-position: left; }
+    50% { background-position: right; }
+    100% { background-position: left; }
+}
+
+.container {
+    text-align: center;
+    padding: 35px 45px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+
+.line {
+    margin: 15px 0;
+    font-size: 44px;
+    letter-spacing: 10px;
+}
+
+i {
+    display: inline-block;
+    margin: 0 6px;
+    transition: 0.3s ease;
+    animation: float 3s ease-in-out infinite;
+}
+
+i:hover {
+    transform: scale(1.35) translateY(-5px);
+    color: #ffffff !important;
+    text-shadow: 0 0 15px rgba(255,255,255,0.7);
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-4px); }
+    100% { transform: translateY(0px); }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- KARYLLE -->
+    <div class="line">
+        <i class="fa-brands fa-kickstarter-k" style="color: rgb(163, 197, 133);"></i>
+        <i class="fa-solid fa-at" style="color: rgb(233, 245, 219);"></i>
+        <i class="fa-solid fa-registered" style="color: rgb(207, 225, 185);"></i>
+        <i class="fa-solid fa-code-branch" style="color: rgb(181, 201, 154);"></i>
+        <i class="fa-solid fa-grip-lines-vertical" style="color: rgb(221, 229, 182);"></i>
+        <i class="fa-brands fa-edge-legacy" style="color: rgb(204, 213, 174);"></i>
+    </div>
+
+    <!-- SUMANDE -->
+    <div class="line">
+        <i class="fa-solid fa-dollar-sign" style="color: rgb(254, 250, 224);"></i>
+        <i class="fa-brands fa-uniregistry" style="color: rgb(183, 200, 163);"></i>
+        <i class="fa-solid fa-manat-sign" style="color: rgb(173, 193, 120);"></i>
+        <i class="fa-solid fa-at" style="color: rgb(233, 245, 219);"></i>
+        <i class="fa-brands fa-neos" style="color: rgb(202, 210, 197);"></i>
+        <i class="fa-brands fa-dochub" style="color: rgb(167, 201, 87);"></i>
+        <i class="fa-brands fa-edge-legacy" style="color: rgb(204, 213, 174);"></i>
+    </div>
+
+    <!-- SUNGA -->
+    <div class="line">
+        <i class="fa-solid fa-dollar-sign" style="color: rgb(254, 250, 224);"></i>
+        <i class="fa-brands fa-uniregistry" style="color: rgb(183, 200, 163);"></i>
+        <i class="fa-brands fa-neos" style="color: rgb(202, 210, 197);"></i>
+        <i class="fa-brands fa-google" style="color: rgb(255, 255, 255);"></i>
+        <i class="fa-solid fa-at" style="color: rgb(233, 245, 219);"></i>
+    </div>
+
+</div>
+
+</body>
+</html>
